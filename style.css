@@ -1,57 +1,66 @@
+/* --- Global layout --- */
 body {
-  font-family: "Segoe UI", Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background: #f5f5f5;
-  color: #333;
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f6f6f6;
+    color: #333;
 }
 
+/* --- Header --- */
 header {
-  background: #003366;
-  color: white;
-  padding: 20px;
-  text-align: center;
+    background: #003366;
+    color: white;
+    padding: 25px 20px;
+    text-align: center;
 }
 
 header h1 {
-  margin: 0 0 10px 0;
+    margin: 0;
+    font-size: 32px;
+}
+
+nav {
+    margin-top: 10px;
 }
 
 nav a {
-  color: #ffdd99;
-  margin: 0 15px;
-  font-weight: bold;
-  text-decoration: none;
+    color: #ffdd99;
+    margin: 0 15px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 nav a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-main {
-  max-width: 900px;
-  margin: auto;
-  padding: 20px;
-  background: white;
-}
-
+/* --- Sections --- */
 section {
-  margin-bottom: 40px;
+    max-width: 900px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
 }
 
 h2 {
-  border-bottom: 2px solid #003366;
-  padding-bottom: 5px;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+    margin-top: 0;
 }
 
-ul {
-  line-height: 1.6;
+/* --- Publications --- */
+ul.publist li {
+    margin-bottom: 12px;
+    line-height: 1.4;
 }
 
+/* --- Footer --- */
 footer {
-  background: #003366;
-  color: white;
-  text-align: center;
-  padding: 15px;
-  margin-top: 40px;
+    background: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
 }
